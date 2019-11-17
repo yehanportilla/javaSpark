@@ -29,5 +29,19 @@ public class BlogController {
             return blogService.listBlog();
         }, gson ::toJson);
 
+        /**
+         * Metodo encargado de obtener blog por nombre de usuario
+         */
+        get("/listar/:username",(req, res)->{
+            res.type("aplication/json");
+            Blog blog = blogService.getBlogByUserName(req.params("username"));
+            if(blog != null){
+                return blog;
+            }
+             else{
+                 return "No se encontraron datos.";
+            }
+        }, gson ::toJson);
+
     }
 }

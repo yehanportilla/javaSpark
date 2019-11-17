@@ -29,4 +29,17 @@ public class BlogService {
       }
       return null;
     }
+
+    /**
+     * Metodo encargado de obtener blog por nombre de usuario
+     */
+    public Blog getBlogByUserName(String username){
+     Blog blog = conection.conectionDB().find(Blog.class,"oth",username).get();
+     if(blog != null){
+         return blog;
+     }
+     else{
+         return null;
+     }
+    }
 }
