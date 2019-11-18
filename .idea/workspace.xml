@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13c6948-0eed-45a0-8507-f4704cb8775f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/controller/BlogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/service/BlogService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,7 @@
       <updated>1573951865748</updated>
       <workItem from="1573951871107" duration="199000" />
       <workItem from="1573953081735" duration="11827000" />
-      <workItem from="1573965462088" duration="10702000" />
+      <workItem from="1573965462088" duration="19024000" />
     </task>
     <servers />
   </component>

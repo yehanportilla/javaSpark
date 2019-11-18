@@ -4,8 +4,7 @@ import co.com.sparkvs.model.Blog;
 import co.com.sparkvs.service.BlogService;
 import com.google.gson.Gson;
 
-import static spark.Spark.get;
-import static spark.Spark.post;
+import static spark.Spark.*;
 
 public class BlogController {
     public  static BlogService blogService = new BlogService();
@@ -43,5 +42,13 @@ public class BlogController {
             }
         }, gson ::toJson);
 
+        /**
+         * Metodo encargado de eliminar blog por user name
+         */
+        delete("/eliminar/:username",(req, res)->{
+            res.type("aplication/json");
+             blogService.deleteBlogById(req.params("username"));
+            return "Eliminado";
+        });
     }
 }
