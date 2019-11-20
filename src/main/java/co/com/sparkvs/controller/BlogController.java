@@ -48,7 +48,7 @@ public class BlogController {
         delete("/eliminar/:username",(req, res)->{
             res.type("aplication/json");
              blogService.deleteBlogById(req.params("username"));
-            return "Eliminado";
+            return "Blog eliminado con exito...!";
         });
     }
 }

@@ -2,11 +2,13 @@ package co.com.sparkvs.service;
 
         import co.com.sparkvs.configuraction.Conection;
         import co.com.sparkvs.model.Blog;
+        import org.bson.types.ObjectId;
 
 
         import java.util.HashMap;
         import java.util.List;
         import java.util.Map;
+        import java.util.Objects;
 
 public class BlogService {
 
@@ -51,11 +53,8 @@ public class BlogService {
     /**
      * Metodo encargado de eliminar blog por username
      */
-    public String deleteBlogById(String name){
-        String query = "DELETE FROM Blog where oth = :name";
-        Map params = new HashMap();
-        params.put(OTH, name);
-        conection.conectionDB().delete(Blog.class, query);
-        return "Blog eliminado con exito";
+    public boolean deleteBlogById(String name){
+        //conection.conectionDB().delete(Blog.class, "oth",name);
+        return true;
     }
 }

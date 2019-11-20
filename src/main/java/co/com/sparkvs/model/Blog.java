@@ -9,6 +9,7 @@ public class Blog {
 
     @Id
     private ObjectId id;
+    private Long idBlog;
     private String title;
     private String description;
     private String oth;
@@ -16,10 +17,12 @@ public class Blog {
     public Blog() {
     }
 
-    public Blog(String title, String description, String oth) {
+    public Blog(Long idBlog, String title, String description, String oth) {
+        this.idBlog = idBlog;
         this.title = title;
         this.description = description;
         this.oth = oth;
+
     }
 
     public ObjectId getId() {
