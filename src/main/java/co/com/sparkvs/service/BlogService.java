@@ -54,7 +54,7 @@ public class BlogService {
      * Metodo encargado de eliminar blog por username
      */
     public boolean deleteBlogById(String name){
-        //conection.conectionDB().delete(Blog.class, "oth",name);
+        conection.conectionDB().delete(Blog.class, name);
         return true;
     }
 }
