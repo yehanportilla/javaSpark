@@ -3,6 +3,7 @@ package co.com.sparkvs.service;
         import co.com.sparkvs.configuraction.Conection;
         import co.com.sparkvs.model.Blog;
         import org.bson.types.ObjectId;
+        import org.mongodb.morphia.query.Query;
 
 
         import java.util.HashMap;
@@ -54,7 +55,11 @@ public class BlogService {
      * Metodo encargado de eliminar blog por username
      */
     public boolean deleteBlogById(String name){
-        conection.conectionDB().delete(Blog.class, name);
+        Query<Blog> query = conection.conectionDB().createQuery(Blog.class)
+                .field("oth")
+                .contains(name);
+        conection.conectionDB().delete(query);
+
         return true;
     }
 }
