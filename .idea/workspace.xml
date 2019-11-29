@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b13c6948-0eed-45a0-8507-f4704cb8775f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sparkvs/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/Api.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/configuraction/Conection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/configuraction/Conection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/model/Blog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/com/sparkvs/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/sparkvs/service/BlogService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BlogController">
+  <component name="RunManager" selected="Application.Api">
     <configuration name="Api" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.com.sparkvs.Api" />
       <module name="sparkvs" />
@@ -74,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BlogController" />
         <item itemvalue="Application.Api" />
+        <item itemvalue="Application.BlogController" />
       </list>
     </recent_temporary>
   </component>

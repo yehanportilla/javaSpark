@@ -38,7 +38,7 @@ public class BlogController {
          * Metodo encargado de obtener blog por nombre de usuario
          */
         public static Object listarUsername(Request req, Response res) {
-    		res.type("aplication/json");
+
     		Blog blog = blogService.getBlogByUserName(req.params("username"));
     		if (blog != null) {
     			return blog;
